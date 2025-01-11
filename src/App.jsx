@@ -6,13 +6,12 @@ import Portfolio from "./Components/Portfolio/Portfolio";
 import Layout from "./Components/Layout/Layout";
 import Home from "./Components/Home/Home";
 
-
 let x = createBrowserRouter([
   {
     path: "",
     element: <Layout />,
     children: [
-      { index:true, element: <Home /> },
+      { index: true, element: <Home /> },
       { path: "about", element: <About /> },
       { path: "contact", element: <Contact /> },
       { path: "portfolio", element: <Portfolio /> },
@@ -24,7 +23,7 @@ let x = createBrowserRouter([
 function App() {
   return (
     <>
-        <RouterProvider router={x}> </RouterProvider>
+      <RouterProvider router={x}> </RouterProvider>
     </>
   );
 }
