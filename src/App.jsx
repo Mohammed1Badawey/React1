@@ -1,10 +1,10 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
+import Layout from "./Components/Layout/Layout";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
-import Portfolio from "./Components/Portfolio/Portfolio";
-import Layout from "./Components/Layout/Layout";
 import Home from "./Components/Home/Home";
+import Portfolio from "./Components/Portfolio/Portfolio";
 
 let x = createBrowserRouter([
   {
